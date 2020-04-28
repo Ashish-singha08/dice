@@ -96,7 +96,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
         
         document.getElementById('current-'+activePlayer).textContent='0';
         document.querySelector('.dice').style.display='none';
-        alert('player'+activePlayer+1+'won the game!');
+        alert('player'+(activePlayer+1)+'won the game!');
     }
     
     else{
